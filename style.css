@@ -15,4 +15,11 @@
 body {
   font-size: 1.6rem;
 
+  --color-base-white: hsl(0, 0%, 100%);
+  --color-base-green-100: hsl(195, 46%, 40%);
+  --color-base-green-300: hsl(195, 91%, 25%);
+  --color-base-gray: #ffffff33;
+
+  --color-base-black-100: hsl(240, 5%, 7%);
+  --color-base-black-200: hsl(240, 6%, 13%);
 }
