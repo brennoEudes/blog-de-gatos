@@ -86,3 +86,7 @@ form {
  .cover-image {
   width: 100%; /* IMPORTANTE: torna a img flexível!*/
  }
+
+ .article-container {
+  padding: 2.8rem 2.6rem;
+ }
