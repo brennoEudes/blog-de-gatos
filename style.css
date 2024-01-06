@@ -25,6 +25,10 @@ body {
   --color-base-black-200: hsl(240, 6%, 13%);
 }
 
+.page {
+  display: grid;
+  grid-template-areas: "header header" "main aside" "footer footer";
+}
 
 /* HEADER */
 header {
@@ -67,7 +71,7 @@ form {
 
 .input-wrapper input::placeholder {
   color: var(--color-base-white);
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .avatar {
@@ -79,6 +83,3 @@ form {
 }
 
 /* MAIN */
-
-
-
