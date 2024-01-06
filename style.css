@@ -26,11 +26,13 @@ body {
 }
 
 
+/* HEADER */
 header {
   display: flex;
+  width: 100%;
   align-items: center;
   padding: 1.2rem 2.8rem;
-  gap: 2.6rem;
+  gap: 2.4rem;
 
   background-color: var(--color-base-green-100);
 }
@@ -75,3 +77,8 @@ form {
   object-fit: cover; /* Cobre todo o espaço diponível com a img */
   border-radius: 50%; /* Quando temos img quadradas, arrendonda corretamente */
 }
+
+/* MAIN */
+
+
+
