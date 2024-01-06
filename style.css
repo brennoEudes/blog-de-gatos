@@ -17,9 +17,61 @@ body {
 
   --color-base-white: hsl(0, 0%, 100%);
   --color-base-green-100: hsl(195, 46%, 40%);
-  --color-base-green-300: hsl(195, 91%, 25%);
+  --color-base-green-200: hsl(195, 91%, 25%);
+
   --color-base-gray: #ffffff33;
 
   --color-base-black-100: hsl(240, 5%, 7%);
   --color-base-black-200: hsl(240, 6%, 13%);
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 2.8rem;
+  gap: 2.6rem;
+
+  background-color: var(--color-base-green-100);
+}
+
+header img {
+  width: 4rem;
+  height: 4rem;
+}
+
+form {
+  flex: 1;
+}
+
+/* Esconde o label! */
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--color-base-gray);
+
+  font-weight: 600;
+}
+
+.input-wrapper input::placeholder {
+  color: var(--color-base-white);
+  opacity: .6;
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+
+  object-fit: cover; /* Cobre todo o espaço diponível com a img */
+  border-radius: 50%; /* Quando temos img quadradas, arrendonda corretamente */
 }
