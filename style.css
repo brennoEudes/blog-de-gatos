@@ -8,5 +8,11 @@
 }
 
 :root {
+  font-size: 62.5%;
   font-family: "Mulish", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+
 }
