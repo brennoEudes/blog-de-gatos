@@ -83,3 +83,6 @@ form {
 }
 
 /* MAIN */
+ .cover-image {
+  width: 100%; /* IMPORTANTE: torna a img flexível!*/
+ }
