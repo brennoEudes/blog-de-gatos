@@ -87,11 +87,17 @@ form {
 .cover-image {
   width: 100%; /* IMPORTANTE: torna a img flexível!*/
   display: block; /* Tira o espaço entre a img e o próximo container */
+
+  --delay: .2s;
+  animation: appear 2s var(--delay) backwards;
 }
 
 .article-container {
   padding: 2.8rem 2.6rem;
   margin-bottom: 4rem;
+
+  --delay: .6s;
+  animation: appear 2s var(--delay) backwards;
 }
 
 .article-container h1 {
@@ -121,6 +127,11 @@ form {
 /* ASIDE */
 aside {
   padding: 0 2.6rem 4rem;
+
+  --delay: 1.2s;
+  --startX: 100%;
+  animation: move-2 2s var(--delay) backwards;
+
 }
 
 aside h2 {
@@ -230,7 +241,6 @@ footer p {
 }
 
 /* ANIMATIONS */
-
 @keyframes move {
   from {
     transform: translateY(
@@ -239,5 +249,26 @@ footer p {
   }
 
   to {
+  }
+}
+
+@keyframes move-2 {
+  from {
+    transform: translateX(
+      var(--startX)
+    ); /* Cria uma varíavel p/ animação referente ao eixo x */
+  }
+
+  to {
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  100% {
   }
 }
