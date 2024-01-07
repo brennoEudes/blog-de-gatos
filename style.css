@@ -158,3 +158,17 @@ aside h2 {
   font-size: 1.4rem;
   line-height: 2rem;
 }
+
+/* FOOTER */
+footer {
+  background: var(--color-base-green-100);
+
+  padding: 1.6rem;
+}
+
+footer p {
+  font-weight: 600;
+  color: var(--color-base-white);
+
+  text-align: center;
+}
