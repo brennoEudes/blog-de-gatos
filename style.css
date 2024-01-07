@@ -116,7 +116,7 @@ form {
 
 /* ASIDE */
 aside {
-  padding: 0 2.6rem;
+  padding: 0 2.6rem 4rem;
 }
 
 aside h2 {
@@ -145,7 +145,7 @@ aside h2 {
 .article-preview figcaption {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: 0.8rem;
 }
 
 .article-preview figcaption h3 {
