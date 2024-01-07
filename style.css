@@ -199,5 +199,17 @@ footer p {
 
   header {
     padding: 1.2rem 11.2rem;
-}
+  }
+
+  main {
+    padding: 4rem 0 4rem 10.4rem;
+  }
+
+  aside {
+    padding: 4rem 10.4rem 4rem 3.2rem;
+  }
+
+  .article-container {
+    padding: 2.8rem 0 0;
+  }
 }
