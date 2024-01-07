@@ -19,10 +19,9 @@ body {
   --color-base-green-100: hsl(195, 46%, 40%);
   --color-base-green-200: hsl(195, 91%, 25%);
 
-  --color-base-gray: #ffffff33;
-
-  --color-base-black-100: hsl(240, 5%, 7%);
-  --color-base-black-200: hsl(240, 6%, 13%);
+  --color-base-gray-100: hsl(240, 6%, 13%);
+  --color-base-gray-200: hsla(240, 6%, 8%, 1);
+  --color-base-gray-300: hsla(0, 0%, 100%, 0.2);
 }
 
 .page {
@@ -64,7 +63,7 @@ form {
 
   border: none;
   border-radius: 0.4rem;
-  background-color: var(--color-base-gray);
+  background-color: var(--color-base-gray-300);
 
   font-weight: 600;
 }
@@ -83,33 +82,45 @@ form {
 }
 
 /* MAIN */
- .cover-image {
+.cover-image {
   width: 100%; /* IMPORTANTE: torna a img flexível!*/
- }
+}
 
- .article-container {
+.article-container {
   padding: 2.8rem 2.6rem;
- }
+}
 
- .article-container h1 {
+.article-container h1 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 3.2rem;
 
-  margin-bottom: .8rem;
- }
+  margin-bottom: 0.8rem;
+  color: var(--color-base-gray-100);
+}
 
- .article-container button {
+.article-container button {
   width: 4rem;
   height: 4rem;
 
   border: none;
   background: none;
- }
+}
 
- .article-container p {
+.article-container p {
   margin-top: 3.2rem;
 
   line-height: 2.4rem;
+  color: var(--color-base-gray-200);
+}
 
- }
+/* ASIDE */
+aside {
+  padding: 0 2.6rem;
+}
+
+aside h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--color-base-gray-100);
+}
