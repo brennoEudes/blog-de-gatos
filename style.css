@@ -37,6 +37,9 @@ header {
   gap: 2.4rem;
 
   background-color: var(--color-base-green-100);
+
+  --startY: -100%;
+  animation: move 1s;
 }
 
 header img {
@@ -168,6 +171,13 @@ footer {
 
   align-items: center;
   justify-content: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  --startY: 100%;
+  animation: move 1s;
 }
 
 footer p {
@@ -215,5 +225,18 @@ footer p {
 
   .article-container {
     padding: 2.8rem 0 0;
+  }
+}
+
+/* ANIMATIONS */
+
+@keyframes move {
+  from {
+    transform: translateY(
+      var(--startY)
+    ); /* Cria uma varíavel p/ animação referente ao eixo y */
+  }
+
+  to {
   }
 }
