@@ -128,10 +128,8 @@ form {
 aside {
   padding: 0 2.6rem 4rem;
 
-  --delay: 1.2s;
-  --startX: 100%;
-  animation: move-2 2s var(--delay) backwards;
-
+  --delay: 1.8s;
+  animation: appear 2s var(--delay) backwards;
 }
 
 aside h2 {
@@ -246,17 +244,6 @@ footer p {
     transform: translateY(
       var(--startY)
     ); /* Cria uma varíavel p/ animação referente ao eixo y */
-  }
-
-  to {
-  }
-}
-
-@keyframes move-2 {
-  from {
-    transform: translateX(
-      var(--startX)
-    ); /* Cria uma varíavel p/ animação referente ao eixo x */
   }
 
   to {
