@@ -106,3 +106,10 @@ form {
   border: none;
   background: none;
  }
+
+ .article-container p {
+  margin-top: 3.2rem;
+
+  line-height: 2.4rem;
+
+ }
