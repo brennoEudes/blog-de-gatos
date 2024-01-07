@@ -70,7 +70,7 @@ form {
 
 .input-wrapper input::placeholder {
   color: var(--color-base-white);
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .avatar {
