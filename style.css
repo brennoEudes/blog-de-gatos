@@ -172,7 +172,6 @@ footer p {
 }
 
 /* MEDIA QUERIES */
-
 @media (min-width: 768px) {
   #page {
     display: grid;
@@ -197,4 +196,8 @@ footer p {
   #page footer {
     grid-area: footer;
   }
+
+  header {
+    padding: 1.2rem 11.2rem;
+}
 }
