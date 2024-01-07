@@ -84,6 +84,7 @@ form {
 /* MAIN */
 .cover-image {
   width: 100%; /* IMPORTANTE: torna a img flexível!*/
+  display: block; /* Tira o espaço entre a img e o próximo container */
 }
 
 .article-container {
