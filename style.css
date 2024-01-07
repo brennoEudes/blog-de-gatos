@@ -124,3 +124,37 @@ aside h2 {
   font-weight: 700;
   color: var(--color-base-gray-100);
 }
+
+.articles-gallery {
+  display: grid;
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.article-preview {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.article-preview img {
+  width: 100%;
+}
+
+.article-preview figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.article-preview figcaption h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--color-base-gray-100);
+}
+.article-preview figcaption p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
