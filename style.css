@@ -98,3 +98,11 @@ form {
 
   margin-bottom: .8rem;
  }
+
+ .article-container button {
+  width: 4rem;
+  height: 4rem;
+
+  border: none;
+  background: none;
+ }
