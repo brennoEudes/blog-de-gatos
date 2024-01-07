@@ -26,11 +26,6 @@ body {
   height: 100vh;
 }
 
-.page {
-  display: grid;
-  grid-template-areas: "header header" "main aside" "footer footer";
-}
-
 /* HEADER */
 header {
   display: flex;
@@ -174,4 +169,32 @@ footer p {
   color: var(--color-base-white);
 
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  #page {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "main main aside"
+      "footer footer footer";
+  }
+
+  #page header {
+    grid-area: header;
+  }
+
+  #page main {
+    grid-area: main;
+  }
+
+  #page aside {
+    grid-area: aside;
+  }
+
+  #page footer {
+    grid-area: footer;
+  }
 }
